@@ -9,18 +9,18 @@ namespace ATM
     internal class ATM
     {
         string name;
-        int balance;
+        decimal balance;
 
         private ATM() { }
 
-        public ATM(string name, int balance)
+        public ATM(string name, decimal balance)
         {
             this.name = name;
             this.balance = balance;
         }
 
-        string Name { get { return name; } }
-        public int Balance { get { return balance; } }
+        public string Name { get { return name;} set { name = value; } }
+        public decimal Balance { get { return balance; } set { balance = value; } }
 
         public void AddMoney(int p)
         {

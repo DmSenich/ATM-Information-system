@@ -50,13 +50,14 @@
             this.dataATM.Name = "dataATM";
             this.dataATM.RowHeadersWidth = 51;
             this.dataATM.RowTemplate.Height = 24;
-            this.dataATM.Size = new System.Drawing.Size(208, 346);
+            this.dataATM.Size = new System.Drawing.Size(290, 346);
             this.dataATM.TabIndex = 0;
+            this.dataATM.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataATM_CellClick);
             // 
             // LabelNumber
             // 
             this.LabelNumber.AutoSize = true;
-            this.LabelNumber.Location = new System.Drawing.Point(222, 10);
+            this.LabelNumber.Location = new System.Drawing.Point(303, 8);
             this.LabelNumber.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LabelNumber.Name = "LabelNumber";
             this.LabelNumber.Size = new System.Drawing.Size(44, 13);
@@ -66,7 +67,7 @@
             // LabelBalance
             // 
             this.LabelBalance.AutoSize = true;
-            this.LabelBalance.Location = new System.Drawing.Point(222, 32);
+            this.LabelBalance.Location = new System.Drawing.Point(303, 30);
             this.LabelBalance.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LabelBalance.Name = "LabelBalance";
             this.LabelBalance.Size = new System.Drawing.Size(47, 13);
@@ -75,7 +76,7 @@
             // 
             // boxNumber
             // 
-            this.boxNumber.Location = new System.Drawing.Point(268, 7);
+            this.boxNumber.Location = new System.Drawing.Point(349, 5);
             this.boxNumber.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.boxNumber.Name = "boxNumber";
             this.boxNumber.Size = new System.Drawing.Size(93, 20);
@@ -83,7 +84,7 @@
             // 
             // numericBalance
             // 
-            this.numericBalance.Location = new System.Drawing.Point(268, 30);
+            this.numericBalance.Location = new System.Drawing.Point(349, 28);
             this.numericBalance.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.numericBalance.Name = "numericBalance";
             this.numericBalance.Size = new System.Drawing.Size(92, 20);
@@ -91,7 +92,7 @@
             // 
             // buttonAddATM
             // 
-            this.buttonAddATM.Location = new System.Drawing.Point(222, 53);
+            this.buttonAddATM.Location = new System.Drawing.Point(303, 51);
             this.buttonAddATM.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonAddATM.Name = "buttonAddATM";
             this.buttonAddATM.Size = new System.Drawing.Size(97, 46);
@@ -102,7 +103,7 @@
             // 
             // buttonUpdate
             // 
-            this.buttonUpdate.Location = new System.Drawing.Point(323, 53);
+            this.buttonUpdate.Location = new System.Drawing.Point(404, 51);
             this.buttonUpdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonUpdate.Name = "buttonUpdate";
             this.buttonUpdate.Size = new System.Drawing.Size(97, 46);
@@ -113,7 +114,7 @@
             // 
             // buttonDelete
             // 
-            this.buttonDelete.Location = new System.Drawing.Point(424, 53);
+            this.buttonDelete.Location = new System.Drawing.Point(505, 51);
             this.buttonDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonDelete.Name = "buttonDelete";
             this.buttonDelete.Size = new System.Drawing.Size(97, 46);
@@ -124,7 +125,7 @@
             // 
             // buttonAddOperation
             // 
-            this.buttonAddOperation.Location = new System.Drawing.Point(224, 179);
+            this.buttonAddOperation.Location = new System.Drawing.Point(305, 177);
             this.buttonAddOperation.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonAddOperation.Name = "buttonAddOperation";
             this.buttonAddOperation.Size = new System.Drawing.Size(97, 46);
@@ -134,7 +135,7 @@
             // 
             // buttonViewHistroriOperation
             // 
-            this.buttonViewHistroriOperation.Location = new System.Drawing.Point(326, 179);
+            this.buttonViewHistroriOperation.Location = new System.Drawing.Point(407, 177);
             this.buttonViewHistroriOperation.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonViewHistroriOperation.Name = "buttonViewHistroriOperation";
             this.buttonViewHistroriOperation.Size = new System.Drawing.Size(97, 46);
@@ -146,7 +147,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.ClientSize = new System.Drawing.Size(644, 366);
             this.Controls.Add(this.buttonViewHistroriOperation);
             this.Controls.Add(this.buttonAddOperation);
             this.Controls.Add(this.buttonDelete);
