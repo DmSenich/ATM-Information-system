@@ -1,0 +1,11 @@
+C:\Users\Andreu\Source\Repos\ATM-Information-system\ATM-information-system\ATM\bin\Debug\ATM.exe.config
+C:\Users\Andreu\Source\Repos\ATM-Information-system\ATM-information-system\ATM\bin\Debug\ATM.exe
+C:\Users\Andreu\Source\Repos\ATM-Information-system\ATM-information-system\ATM\bin\Debug\ATM.pdb
+C:\Users\Andreu\Source\Repos\ATM-Information-system\ATM-information-system\ATM\obj\Debug\ATM.csproj.AssemblyReference.cache
+C:\Users\Andreu\Source\Repos\ATM-Information-system\ATM-information-system\ATM\obj\Debug\ATM.csproj.SuggestedBindingRedirects.cache
+C:\Users\Andreu\Source\Repos\ATM-Information-system\ATM-information-system\ATM\obj\Debug\ATM.Form1.resources
+C:\Users\Andreu\Source\Repos\ATM-Information-system\ATM-information-system\ATM\obj\Debug\ATM.Properties.Resources.resources
+C:\Users\Andreu\Source\Repos\ATM-Information-system\ATM-information-system\ATM\obj\Debug\ATM.csproj.GenerateResource.cache
+C:\Users\Andreu\Source\Repos\ATM-Information-system\ATM-information-system\ATM\obj\Debug\ATM.csproj.CoreCompileInputs.cache
+C:\Users\Andreu\Source\Repos\ATM-Information-system\ATM-information-system\ATM\obj\Debug\ATM.exe
+C:\Users\Andreu\Source\Repos\ATM-Information-system\ATM-information-system\ATM\obj\Debug\ATM.pdb
