@@ -75,9 +75,11 @@ namespace ATM
 
         private void buttonAddOperation_Click(object sender, EventArgs e)
         {
-            FormAddOperation form = new FormAddOperation(ATMs);
+            FormAddOperation form = new FormAddOperation(ATMs, operations);
             form.ShowDialog();
             operations = form.Operations;
+            ATMs = form.ATMs;
+            UpdateData();
         }
 
         private void buttonViewHistroriOperation_Click(object sender, EventArgs e)

@@ -16,6 +16,10 @@ namespace ATM
         {
             InitializeComponent();
             dataOperation.ColumnCount = 4;
+            dataOperation.Columns[0].HeaderText = "Номер банкомата";
+            dataOperation.Columns[1].HeaderText = "Номер счета";
+            dataOperation.Columns[2].HeaderText = "Сумма операции";
+            dataOperation.Columns[3].HeaderText = "Тип операции";
             foreach (var item in op)
                 dataOperation.Rows.Add(item.NumBank, item.Person, item.MoneyTransfer, item.Doing ? "Внесение в банкомат" : "Снятие наличных");
         }
