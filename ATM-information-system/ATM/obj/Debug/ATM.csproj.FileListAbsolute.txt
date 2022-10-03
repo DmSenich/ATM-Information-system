@@ -9,3 +9,5 @@ C:\Users\Andreu\Source\Repos\ATM-Information-system\ATM-information-system\ATM\o
 C:\Users\Andreu\Source\Repos\ATM-Information-system\ATM-information-system\ATM\obj\Debug\ATM.csproj.CoreCompileInputs.cache
 C:\Users\Andreu\Source\Repos\ATM-Information-system\ATM-information-system\ATM\obj\Debug\ATM.exe
 C:\Users\Andreu\Source\Repos\ATM-Information-system\ATM-information-system\ATM\obj\Debug\ATM.pdb
+C:\Users\Andreu\Source\Repos\ATM-Information-system\ATM-information-system\ATM\obj\Debug\ATM.FormAddOperation.resources
+C:\Users\Andreu\Source\Repos\ATM-Information-system\ATM-information-system\ATM\obj\Debug\ATM.FormViewHistoryOperation.resources

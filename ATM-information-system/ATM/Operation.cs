@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ATM
 {
-    internal class Operation
+    public class Operation
     {
         string person, numBank;
         decimal moneyTransfer;
@@ -30,11 +30,11 @@ namespace ATM
             string st;
             if (Doing)
             {
-                st = "Внести в банкомант";
+                st = "Внесение в банкомант";
             }
             else
             {
-                st = "Снять наличные";
+                st = "Снятие наличных";
             }
             return st;
         }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ATM
 {
-    internal class ATM
+    public class ATM
     {
         string name;
         decimal balance;

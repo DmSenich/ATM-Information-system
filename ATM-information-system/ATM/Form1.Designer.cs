@@ -130,6 +130,7 @@
             this.buttonAddOperation.TabIndex = 8;
             this.buttonAddOperation.Text = "Добавить операцию";
             this.buttonAddOperation.UseVisualStyleBackColor = true;
+            this.buttonAddOperation.Click += new System.EventHandler(this.buttonAddOperation_Click);
             // 
             // buttonViewHistroriOperation
             // 
@@ -140,6 +141,7 @@
             this.buttonViewHistroriOperation.TabIndex = 9;
             this.buttonViewHistroriOperation.Text = "Посмотреть историю опериций";
             this.buttonViewHistroriOperation.UseVisualStyleBackColor = true;
+            this.buttonViewHistroriOperation.Click += new System.EventHandler(this.buttonViewHistroriOperation_Click);
             // 
             // Form1
             // 

@@ -12,7 +12,8 @@ namespace ATM
 {
     public partial class Form1 : Form
     {
-        List<ATM> ATMs = new List<ATM>();
+        public List<ATM> ATMs = new List<ATM>();
+        public List<Operation> operations = new List<Operation>();
         public Form1()
         {
             InitializeComponent();
@@ -70,6 +71,19 @@ namespace ATM
                 boxNumber.Text = dataATM.Rows[e.RowIndex].Cells[0].Value.ToString();
                 numericBalance.Value = Convert.ToDecimal(dataATM.Rows[e.RowIndex].Cells[1].Value);
             }
+        }
+
+        private void buttonAddOperation_Click(object sender, EventArgs e)
+        {
+            FormAddOperation form = new FormAddOperation(ATMs);
+            form.ShowDialog();
+            operations = form.Operations;
+        }
+
+        private void buttonViewHistroriOperation_Click(object sender, EventArgs e)
+        {
+            FormViewHistoryOperation form = new FormViewHistoryOperation(operations);
+            form.ShowDialog();
         }
     }
 }
